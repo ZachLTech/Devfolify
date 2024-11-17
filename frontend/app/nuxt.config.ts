@@ -3,6 +3,7 @@ export default defineNuxtConfig({
   ssr: false,
   devtools: { enabled: true },
   css: ['~/assets/css/main.css'],
+
   postcss: {
     plugins: {
       tailwindcss: {},
@@ -10,5 +11,6 @@ export default defineNuxtConfig({
     },
   },
 
-  modules: ['@nuxtjs/device'],
+  modules: ['@nuxtjs/device', '@nuxtjs/color-mode'],
+  compatibilityDate: '2024-11-16',
 })

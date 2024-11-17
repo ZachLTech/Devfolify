@@ -10,6 +10,19 @@ export default {
   ],
   theme: {
     extend: {},
+    colors: {
+      "primary": "#3b3bc4",
+      "primary-dark": "#3b3bc4",
+      "secondary": "#9595db",
+      "secondary-dark": "#24246a",
+      "accent": "#5353f3",
+      "accent-dark": "#0c0cac",
+      "neutral": "#000",
+      "text": "#090911",
+      "text-dark": "#eeeef6",
+      "bg": "#fbfbfe",
+      "bg-dark": "#010104"
+    }
   },
   plugins: [
     require('daisyui'),
@@ -18,12 +31,17 @@ export default {
     themes: [
       {
         mytheme: {
-          "primary": "#003bff",
-          "secondary": "#1C2538",
-          "accent": "#24314A",
+          "primary": "#3b3bc4",
+          "primary-dark": "#3b3bc4",
+          "secondary": "#9595db",
+          "secondary-dark": "#24246a",
+          "accent": "#5353f3",
+          "accent-dark": "#0c0cac",
           "neutral": "#000",
-          "base-content": "#EFF2DA",
-          "base-100": "#1d232a",
+          "text": "#090911",
+          "text-dark": "#eeeef6",
+          "bg": "#fbfbfe",
+          "bg-dark": "#010104"
         },
       }
     ],
