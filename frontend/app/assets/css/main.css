@@ -10,7 +10,7 @@
 }
 
 h1,p,img,summary,a{
-    user-select: none;
+    cursor: default;
 }
 
 body{

@@ -11,6 +11,6 @@ export default defineNuxtConfig({
     },
   },
 
-  modules: ['@nuxtjs/device', '@nuxtjs/color-mode'],
+  modules: ['@nuxtjs/device', '@nuxtjs/color-mode', '@vueuse/motion/nuxt'],
   compatibilityDate: '2024-11-16',
 })

@@ -3,7 +3,7 @@
 </script>
 
 <template>
-    <div class="w-screen h-20 px-8 bg-neutral flex justify-between items-center">
+    <div class="w-screen h-20 px-8 flex justify-between items-center">
         <a href="/" class="text-3xl font-bold cursor-pointer">Devfolify - Alpha</a>
         <div class="flex gap-3">
             <p>{{ user.current.providerUid }}</p>

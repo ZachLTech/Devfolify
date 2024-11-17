@@ -11,8 +11,8 @@ export default {
   theme: {
     extend: {},
     colors: {
-      "primary": "#3b3bc4",
-      "primary-dark": "#3b3bc4",
+      "primary": "#1e18ee",
+      "primary-dark": "#1911e8",
       "secondary": "#9595db",
       "secondary-dark": "#24246a",
       "accent": "#5353f3",
@@ -31,8 +31,8 @@ export default {
     themes: [
       {
         mytheme: {
-          "primary": "#3b3bc4",
-          "primary-dark": "#3b3bc4",
+          "primary": "#1e18ee",
+          "primary-dark": "#1911e8",
           "secondary": "#9595db",
           "secondary-dark": "#24246a",
           "accent": "#5353f3",
