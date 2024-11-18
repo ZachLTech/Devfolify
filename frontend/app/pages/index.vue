@@ -6,7 +6,7 @@
     <div>
         <Navdude class="z-[500] fixed" />
         <section class="flex justify-center items-center">
-            <div class="absolute w-full right-0 top-0 inset-0 text-secondary">
+            <div class="absolute w-full right-0 top-0 inset-0 text-secondary overflow-hidden">
                 <svg class="w-[110vw] h-screen absolute" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" preserveAspectRatio="xMidYMid slice">
                     <defs>
                         <pattern id="dots" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
@@ -80,7 +80,7 @@
                     <rect width="100%" height="100%" fill="url(#fadeGradient)" style="mix-blend-mode: multiply"/>
                 </svg>
             </div>
-            <hero class="z-50 backdrop-blur-sm" />
+            <hero :location="'#waitlist'" class="z-50 backdrop-blur-sm" />
         </section>
         <!-- <section id="about" class="flex flex-col justify-center items-center gap-[100px]">
             <h1 class="text-6xl font-bold">About & Mission</h1>
@@ -99,7 +99,7 @@
                 I want to help support people with envisioning and creating new innovative projects for the benefit of society and the open source community all the while allowing users to build their experience and expand their knowledge.
             </p>
         </section> -->
-        <section id="features" class="w-screen h-[60vh] flex justify-center items-center">
+        <section id="features" class="w-screen sm:h-[60vh] flex justify-center items-center">
             <div class="max-w-[1500px] flex justify-center flex-wrap">
                 <!--   Kickstart project ideation with the a library of cool ideas and people -->
                 <featureCard :title="'Ideate'" :icon="'fluent:people-community-12-filled'" :description="'Envision new projects as we help facilitate brainstorming with personalized suggestions'" />
@@ -117,15 +117,18 @@
                 <NuxtLink href="/login"class="btn w-24 btn-primary text-white">Signup</NuxtLink>
             </div>
         </section> -->
-        <section class="w-screen h-[40vh] flex flex-col gap-2 justify-center items-center">
+        <section id="waitlist" class="w-screen h-[50vh] flex flex-col gap-2 justify-center items-center">
             <h1 class="text-5xl font-bold text-text dark:text-text-dark">
                 Join the Waitlist
             </h1>
-            <p class="text-text dark:text-text-dark text-lg">Get notified when our platform launches for new users!</p>
-            <waitlistForm />
+            <p class="text-text dark:text-text-dark text-lg text-center">Get notified when our platform launches for new users!</p>
+            <waitlistForm class="mt-8 mb-12" />
         </section>
         <!-- <div class="w-screen h-24 px-8 flex justify-center items-center">
             <p class="text-lg text-text dark:text-text-dark">This project falls under the MIT License</p>
         </div> -->
+        <div class="flex items-center justify-center mt-12 pb-5 px-12 gap-4">
+            <div class="h-[1px] bg-bg-dark dark:bg-bg bg-opacity-30 dark:bg-opacity-30"></div>
+        </div>
     </div>
 </template>

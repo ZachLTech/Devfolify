@@ -48,8 +48,8 @@ export default defineEventHandler(async (event: H3Event) => {
       to: email,
       subject: 'Welcome to the Devfolify Waitlist!',
       html: `
-        <h1>Thanks for joining our waitlist!</h1>
-        <p>We're excited to have you on board. We'll notify you as soon as Devfolify launches.</p>
+        <h1>Thanks for joining!</h1>
+        <p>We're excited to have you on board. We'll notify you as soon as Devfolify launches or if we need beta testers.</p>
         <p>In the meantime, stay tuned for updates!</p>
       `,
     })

@@ -1,10 +1,10 @@
 <script setup>
-    const user = useUserSession();
+    // const user = useUserSession();
 </script>
 
 <template>
-    <div class="w-screen h-20 px-8 flex justify-between items-center">
-        <a href="/" class="text-3xl font-bold cursor-pointer">TBD . . .</a>
+    <div class="w-screen h-20 px-8 flex justify-between items-center bg-bg dark:bg-bg-dark sm:bg-transparent">
+        <a href="/" class="text-3xl cursor-pointer">Devfolify</a>
         <a href="https://github.com/ZachLTech/Devfolify" target="_blank">
             <Icon name="mdi:github" class="w-12 h-12 cursor-pointer text-[#000] dark:text-[#fff]" />
         </a>
