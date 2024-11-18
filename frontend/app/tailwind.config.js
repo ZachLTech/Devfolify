@@ -9,7 +9,17 @@ export default {
     "./error.vue",
   ],
   theme: {
-    extend: {},
+    extend: {
+      animation: {
+        'border-trace': 'border-trace 2s linear infinite',
+      },
+      keyframes: {
+        'border-trace': {
+          '0%': { backgroundPosition: '0% 0%' },
+          '100%': { backgroundPosition: '200% 200%' },
+        },
+      },
+    },
     colors: {
       "primary": "#1e18ee",
       "primary-dark": "#1911e8",

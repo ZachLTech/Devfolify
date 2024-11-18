@@ -95,19 +95,37 @@
                 to form novel projects which in turn gives you a new project on your list of
                 accomplishments, heightened skill, real world problem solving skills, and maybe 
                 even that idea of a lifetime which could take you to great places!
+
+                I want to help support people with envisioning and creating new innovative projects for the benefit of society and the open source community all the while allowing users to build their experience and expand their knowledge.
             </p>
         </section> -->
-        <section class="flex flex-col gap-5 justify-center items-center h-screen">
+        <section id="features" class="w-screen h-[60vh] flex justify-center items-center">
+            <div class="max-w-[1500px] flex justify-center flex-wrap">
+                <!--   Kickstart project ideation with the a library of cool ideas and people -->
+                <featureCard :title="'Ideate'" :icon="'fluent:people-community-12-filled'" :description="'Envision new projects as we help facilitate brainstorming with personalized suggestions'" />
+                <featureCard :title="'Create'" :icon="'fluent:people-community-12-filled'" :description="'Build new creations and gain experience with onboard assistance for new programmers'" />
+                <featureCard :title="'Share'" :icon="'fluent:people-community-12-filled'" :description="'Share your innovative solutions with the community and gain reputation for projects'" />
+                <featureCard :title="'Community'" :icon="'fluent:people-community-12-filled'" :description="'Join a community of developers creating new projects and expanding their experience'" />
+                <featureCard :title="'Challenges'" :icon="'fluent:people-community-12-filled'" :description="'Challenge yourself to solve real world problems in unique & creative ways'" />
+                <featureCard :title="'Competitions'" :icon="'fluent:people-community-12-filled'" :description="'Monthly unofficial mini-hackathons with curated themes & topics from any industry'" />
+            </div>
+        </section>
+        <!-- <section class="flex flex-col gap-5 justify-center items-center h-screen">
             <h1 class="text-6xl font-bold">Enjoy!</h1>
             <div class="flex gap-3">
                 <NuxtLink href="/login" class="btn w-24 text-white">Log In</NuxtLink>
                 <NuxtLink href="/login"class="btn w-24 btn-primary text-white">Signup</NuxtLink>
             </div>
+        </section> -->
+        <section class="w-screen h-[40vh] flex flex-col gap-2 justify-center items-center">
+            <h1 class="text-5xl font-bold text-text dark:text-text-dark">
+                Join the Waitlist
+            </h1>
+            <p class="text-text dark:text-text-dark text-lg">Get notified when our platform launches for new users!</p>
+            <waitlistForm />
         </section>
-        <div class="w-screen h-24 px-8 bg-neutral flex justify-between items-center">
-            <a class="text-3xl font-bold w-12 h-12 cursor-pointer"><img src="/github.svg" alt=""></a>
-            <!-- <p class="text-lg font-bold">© 2024 Yaman. This project falls under the MIT License</p> -->
-            <a class="text-3xl font-bold w-12 h-12"></a>
-        </div>
+        <!-- <div class="w-screen h-24 px-8 flex justify-center items-center">
+            <p class="text-lg text-text dark:text-text-dark">This project falls under the MIT License</p>
+        </div> -->
     </div>
 </template>

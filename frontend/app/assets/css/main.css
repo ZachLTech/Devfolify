@@ -9,7 +9,7 @@
     scroll-behavior: smooth;
 }
 
-h1,p,img,summary,a{
+h1,p,img,summary,a,span{
     cursor: default;
 }
 

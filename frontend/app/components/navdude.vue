@@ -4,10 +4,12 @@
 
 <template>
     <div class="w-screen h-20 px-8 flex justify-between items-center">
-        <a href="/" class="text-3xl font-bold cursor-pointer">Devfolify - Alpha</a>
-        <div class="flex gap-3">
+        <a href="/" class="text-3xl font-bold cursor-pointer">TBD . . .</a>
+        <a href="https://github.com/ZachLTech/Devfolify" target="_blank">
+            <Icon name="mdi:github" class="w-12 h-12 cursor-pointer text-[#000] dark:text-[#fff]" />
+        </a>
+        <!-- <div class="flex gap-3">
             <p>{{ user.current.providerUid }}</p>
-            <!-- Email and logout button if logged in user -->
             <div class="flex gap-3" v-if="user.current.value" >
                 <NuxtLink href="/dashboard"class="btn w-24 text-white">
                     Dashboard
@@ -16,7 +18,6 @@
                     Logout
                 </a>
             </div>
-            <!-- Login button if no user logged in -->
             <div class="flex gap-3" v-else >
                 <NuxtLink href="/login" class="btn w-24 text-white">
                     Login
@@ -26,6 +27,6 @@
                 </NuxtLink>
             </div>
             
-        </div>
+        </div> -->
     </div>
 </template>

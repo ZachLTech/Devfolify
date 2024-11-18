@@ -11,6 +11,10 @@ export default defineNuxtConfig({
     },
   },
 
-  modules: ['@nuxtjs/device', '@nuxtjs/color-mode', '@vueuse/motion/nuxt'],
+  // runtimeConfig: {
+  //   resendKey: process.env.RESEND_API_KEY,
+  // },
+
+  modules: ['@nuxtjs/device', '@nuxtjs/color-mode', '@vueuse/motion/nuxt', '@nuxt/icon'],
   compatibilityDate: '2024-11-16',
 })

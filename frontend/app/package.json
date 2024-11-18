@@ -10,10 +10,12 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@nuxt/icon": "^1.7.5",
     "@nuxtjs/color-mode": "^3.5.2",
     "@vueuse/motion": "^2.2.6",
     "appwrite": "^15.0.0",
     "nuxt": "^3.11.2",
+    "resend": "^4.0.1-alpha.0",
     "vue": "^3.4.21",
     "vue-router": "^4.3.0"
   },
