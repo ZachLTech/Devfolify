@@ -102,12 +102,12 @@
         <section id="features" class="w-screen sm:h-[60vh] flex justify-center items-center">
             <div class="max-w-[1500px] flex justify-center flex-wrap">
                 <!--   Kickstart project ideation with the a library of cool ideas and people -->
-                <featureCard :title="'Ideate'" :icon="'fluent:people-community-12-filled'" :description="'Envision new projects as we help facilitate brainstorming with personalized suggestions'" />
-                <featureCard :title="'Create'" :icon="'fluent:people-community-12-filled'" :description="'Build new creations and gain experience with onboard assistance for new programmers'" />
-                <featureCard :title="'Share'" :icon="'fluent:people-community-12-filled'" :description="'Share your innovative solutions with the community and gain reputation for projects'" />
+                <featureCard :title="'Ideate'" :icon="'mdi:lightbulb-on'" :description="'Envision new projects as we help facilitate brainstorming with personalized suggestions'" />
+                <featureCard :title="'Create'" :icon="'mdi:hammer-screwdriver'" :description="'Build new creations and gain experience with onboard assistance for new programmers'" />
+                <featureCard :title="'Share'" :icon="'material-symbols:ios-share'" :description="'Share your innovative solutions with the community and gain reputation for projects'" />
                 <featureCard :title="'Community'" :icon="'fluent:people-community-12-filled'" :description="'Join a community of developers creating new projects and expanding their experience'" />
-                <featureCard :title="'Challenges'" :icon="'fluent:people-community-12-filled'" :description="'Challenge yourself to solve real world problems in unique & creative ways'" />
-                <featureCard :title="'Competitions'" :icon="'fluent:people-community-12-filled'" :description="'Monthly unofficial mini-hackathons with curated themes & topics from any industry'" />
+                <featureCard :title="'Challenges'" :icon="'tabler:exclamation-circle-filled'" :description="'Challenge yourself to solve real world problems in unique & creative ways'" />
+                <featureCard :title="'Competitions'" :icon="'material-symbols:trophy'" :description="'Monthly unofficial mini-hackathons with curated themes & topics from any industry'" />
             </div>
         </section>
         <!-- <section class="flex flex-col gap-5 justify-center items-center h-screen">
