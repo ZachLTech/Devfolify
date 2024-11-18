@@ -1,4 +1,7 @@
-# <p align="center"> <img width="850" src="./DevfolifyThumbnail.png" /> <br> Devfolify 👀</p>
+# <p align="center">Devfolify 👀</p>
+
+<p align="center"><img width="850" src="./DevfolifyThumbnail.png" /></p>
+<br>
 
 ## Overview
 
