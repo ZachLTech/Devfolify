@@ -1,13 +1,5 @@
 version: '3.3'
 services:
-  api_devfolify:
-    build:
-      context: ./backend
-      dockerfile: Dockerfile
-    container_name: api-devfolify
-    restart: unless-stopped
-    ports:
-      - 9986:3000
   site_devfolify:
     build:
       context: ./frontend
